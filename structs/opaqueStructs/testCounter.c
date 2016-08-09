@@ -8,7 +8,7 @@ main(int argc, char **argv)
     Counter c;
     int value;
     c = counterCreate();
-    initCounter(c);
+    initCounter(c, 5);
     while((value = counterIncrement(c)) < 10) {
 	printf("%d\n", value);
     }

@@ -24,9 +24,9 @@ counterDestroy(Counter c)
 }
 
 void
-initCounter(Counter c)
+initCounter(Counter c, int a)
 {
-    c->value = 1;
+    c->value = a;
 }
 
 int
