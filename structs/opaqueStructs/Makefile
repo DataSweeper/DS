@@ -13,4 +13,4 @@ test:
 	./testCounter
 
 clean:
-	$(RM) testCounter *.o *~
+	$(RM) testCounter *.o~
